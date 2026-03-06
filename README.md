@@ -2,8 +2,8 @@
 
 ## Papers
 - [Design and development of calorimetry at SHiP and SND@LHC](https://openscience.ub.uni-mainz.de/items/901302bf-320c-4ebb-8c77-0136b5770b88)
-- https://arxiv.org/pdf/2504.06692
-- https://inspirehep.net/files/e85744382e8ee9fbd4e980a02693eb25
+- [SHiP experiment at the SPS Beam Dump Facility](https://arxiv.org/pdf/2504.06692)
+- [The experimental facility for the Search for Hidden Particles at the CERN SPS](https://inspirehep.net/files/e85744382e8ee9fbd4e980a02693eb25)
 - https://inspirehep.net/files/961e67ddf64231351beb2f712f0e3b37
 - https://www.epj-conferences.org/articles/epjconf/pdf/2025/05/epjconf_calor2024_00011.pdf
 
