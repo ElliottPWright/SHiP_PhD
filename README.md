@@ -11,10 +11,10 @@
 - [SHiP calorimetry](https://indico.cern.ch/event/644961/contributions/2714869/attachments/1538818/2412152/Paris_SHiP.pdf?utm_source=chatgpt.com)
 - [New Experiment at CERN to look for “hidden” particles](https://www.youtube.com/watch?v=FqYxTmmsaSA&t=11s)
 - [SHiP – Introduction to physics and the role of calorimetry](https://indico.ijclab.in2p3.fr/event/11400/contributions/37562/attachments/25392/37323/Calorimetry%40SHiP.pdf?utm_source=chatgpt.com)
-- https://en.wikipedia.org/wiki/Scintillator
-- https://www.youtube.com/watch?v=e7yXqF32Yvw
-- https://www.youtube.com/watch?v=sWNTsKX5H5M
-- https://en.wikipedia.org/wiki/Axion
+- [Scintillator](https://en.wikipedia.org/wiki/Scintillator)
+- [Are Axions Dark Matter?](https://www.youtube.com/watch?v=e7yXqF32Yvw)
+- [Does Axionic Dark Matter Bind Galaxies Together?](https://www.youtube.com/watch?v=sWNTsKX5H5M)
+- [Axion](https://en.wikipedia.org/wiki/Axion)
 - https://prisma.uni-mainz.de/en/structure/#structure-of-the-cluster
 - https://www.etap.physik.uni-mainz.de/
 
