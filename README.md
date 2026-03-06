@@ -15,6 +15,6 @@
 - [Are Axions Dark Matter?](https://www.youtube.com/watch?v=e7yXqF32Yvw)
 - [Does Axionic Dark Matter Bind Galaxies Together?](https://www.youtube.com/watch?v=sWNTsKX5H5M)
 - [Axion](https://en.wikipedia.org/wiki/Axion)
-- https://prisma.uni-mainz.de/en/structure/#structure-of-the-cluster
-- https://www.etap.physik.uni-mainz.de/
+- [Structure - PRISMA++](https://prisma.uni-mainz.de/en/structure/#structure-of-the-cluster)
+- [ETAP Mainz](https://www.etap.physik.uni-mainz.de/)
 
