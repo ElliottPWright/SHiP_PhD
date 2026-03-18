@@ -19,4 +19,5 @@
 - [ETAP Mainz](https://www.etap.physik.uni-mainz.de/)
 - [How Does a Transistor Work?](https://www.youtube.com/watch?v=IcrBqCFLHIY&t=60s)
 - [Robert Schoefbeck's YouTube](https://www.youtube.com/@robertschoefbeck3637/videos)
+- [Physics Matters YouTube Channel](https://www.youtube.com/@physics_matters/playlists)
 
