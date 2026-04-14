@@ -23,5 +23,5 @@
 
 ## CERN References
 - [Newcomers & returning users](https://usersoffice.web.cern.ch/pre-arrival-formalities-and-information)
-- [Pre-registration for CERN travel](https://usersoffice.web.cern.ch/i-am-pre-registered-what-happens-next)
+- [EDH pre-registration PREG](https://usersoffice.web.cern.ch/i-am-pre-registered-what-happens-next)
 - [Post EDH approval](https://usersoffice.web.cern.ch/edh-pre-registration-form#what-happens-after-submission)
