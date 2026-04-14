@@ -25,3 +25,8 @@
 - [Newcomers & returning users](https://usersoffice.web.cern.ch/pre-arrival-formalities-and-information)
 - [EDH pre-registration PREG](https://usersoffice.web.cern.ch/i-am-pre-registered-what-happens-next)
 - [Post EDH approval](https://usersoffice.web.cern.ch/edh-pre-registration-form#what-happens-after-submission)
+
+## ZOOM links
+
+- [SHiP Friday 9 a.m.](https://cern.zoom.us/j/67008561001?pwd=d0w4TVpENitPYmJnc0ZQclV0aThjUT09)
+- [SHiP Friday 1 p.m.](https://cern.zoom.us/j/96300113241?pwd=dnR4L3JGU05USFB3RGk1WGRSZ1NNQT09)
