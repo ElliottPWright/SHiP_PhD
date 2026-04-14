@@ -21,3 +21,6 @@
 - [Robert Schoefbeck's YouTube](https://www.youtube.com/@robertschoefbeck3637/videos)
 - [Physics Matters YouTube Channel](https://www.youtube.com/@physics_matters/playlists)
 
+## CERN References
+- [Newcomers & returning users](https://usersoffice.web.cern.ch/pre-arrival-formalities-and-information)
+- [Pre-registration](https://usersoffice.web.cern.ch/i-am-pre-registered-what-happens-next)
