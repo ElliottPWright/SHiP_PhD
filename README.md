@@ -3,7 +3,7 @@
 ## Papers
 - [Design and development of calorimetry at SHiP and SND@LHC](https://openscience.ub.uni-mainz.de/items/901302bf-320c-4ebb-8c77-0136b5770b88)
 - [SHiP experiment at the SPS Beam Dump Facility](https://inspirehep.net/literature/2910156)
-- [The experimental facility for the Search for Hidden Particles at the CERN SPS](https://inspirehep.net/files/e85744382e8ee9fbd4e980a02693eb25)
+- [The experimental facility for the Search for Hidden Particles at the CERN SPS](https://inspirehep.net/literature/1698888)
 - [The SHiP experiment at the proposed CERN SPS Beam Dump Facility](https://inspirehep.net/files/961e67ddf64231351beb2f712f0e3b37)
 - [A Pointing Electromagnetic Calorimeter for FIP Experiments leveraging X → γγ Decays](https://www.epj-conferences.org/articles/epjconf/pdf/2025/05/epjconf_calor2024_00011.pdf)
 - [BDF/SHiP at the ECN3 high-intensity beam facility](https://cds.cern.ch/record/2878604/?ln=en)
