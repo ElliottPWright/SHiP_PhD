@@ -7,6 +7,7 @@
 - [The SHiP experiment at the proposed CERN SPS Beam Dump Facility](https://inspirehep.net/files/961e67ddf64231351beb2f712f0e3b37)
 - [A Pointing Electromagnetic Calorimeter for FIP Experiments leveraging X → γγ Decays](https://www.epj-conferences.org/articles/epjconf/pdf/2025/05/epjconf_calor2024_00011.pdf)
 - [BDF/SHiP at the ECN3 high-intensity beam facility](https://cds.cern.ch/record/2878604/?ln=en)
+- [BDF/SHiP Annual Report 2025](https://cds.cern.ch/record/2948477)
 
 ## Websites
 - [SHiP calorimetry](https://indico.cern.ch/event/644961/contributions/2714869/attachments/1538818/2412152/Paris_SHiP.pdf?utm_source=chatgpt.com)
