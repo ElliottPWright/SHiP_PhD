@@ -9,6 +9,9 @@
 - [BDF/SHiP at the ECN3 high-intensity beam facility](https://cds.cern.ch/record/2878604/?ln=en)
 - [BDF/SHiP Annual Report 2025](https://cds.cern.ch/record/2948477)
 
+## Books
+- [Particle Detectors: Fundamentals and Applications](https://academic.oup.com/book/43645)
+
 ## Websites
 - [SHiP calorimetry](https://indico.cern.ch/event/644961/contributions/2714869/attachments/1538818/2412152/Paris_SHiP.pdf?utm_source=chatgpt.com)
 - [New Experiment at CERN to look for “hidden” particles](https://www.youtube.com/watch?v=FqYxTmmsaSA&t=11s)
