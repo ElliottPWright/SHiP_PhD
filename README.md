@@ -32,3 +32,4 @@
 
 - [SHiP Friday 9 a.m.](https://cern.zoom.us/j/67008561001?pwd=d0w4TVpENitPYmJnc0ZQclV0aThjUT09)
 - [SHiP Friday 1 p.m.](https://cern.zoom.us/j/96300113241?pwd=dnR4L3JGU05USFB3RGk1WGRSZ1NNQT09)
+- [Computer Safety Course](https://cern.ch/computersecuritycourse)
