@@ -30,6 +30,7 @@
 
 ## CERN References
 - [SHiP Twiki](https://twiki.cern.ch/twiki/bin/viewauth/Ship/WebHome)
+- [CVMFS Documentation](https://cvmfs.readthedocs.io/en/stable/cpt-quickstart.html)
 - [Newcomers & returning users](https://usersoffice.web.cern.ch/pre-arrival-formalities-and-information)
 - [EDH pre-registration PREG](https://usersoffice.web.cern.ch/i-am-pre-registered-what-happens-next)
 - [Post EDH approval](https://usersoffice.web.cern.ch/edh-pre-registration-form#what-happens-after-submission)
