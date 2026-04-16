@@ -13,7 +13,8 @@
 - [Particle Detectors: Fundamentals and Applications](https://academic.oup.com/book/43645)
 
 ## Websites
-- [FairSHiP](https://indico.cern.ch/event/406571/contributions/974650/attachments/1167167/1711234/FairShip_analysis_tutorial.pdf)
+- [FairSHiP GitHub](https://github.com/ShipSoft/FairShip/tree/master)
+- [FairSHiP Tutorial (2015)](https://indico.cern.ch/event/406571/contributions/974650/attachments/1167167/1711234/FairShip_analysis_tutorial.pdf)
 - [SHiP calorimetry](https://indico.cern.ch/event/644961/contributions/2714869/attachments/1538818/2412152/Paris_SHiP.pdf?utm_source=chatgpt.com)
 - [New Experiment at CERN to look for “hidden” particles](https://www.youtube.com/watch?v=FqYxTmmsaSA&t=11s)
 - [SHiP – Introduction to physics and the role of calorimetry](https://indico.ijclab.in2p3.fr/event/11400/contributions/37562/attachments/25392/37323/Calorimetry%40SHiP.pdf?utm_source=chatgpt.com)
