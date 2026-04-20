@@ -14,6 +14,9 @@
 ## Books
 - [Particle Detectors: Fundamentals and Applications](https://academic.oup.com/book/43645)
 
+## Teaching
+- [My Courses](https://moodle.uni-mainz.de/my/courses.php)
+
 ## Websites
 - [FairSHiP GitHub](https://github.com/ShipSoft/FairShip/tree/master)
 - [FairSHiP Tutorial (2015)](https://indico.cern.ch/event/406571/contributions/974650/attachments/1167167/1711234/FairShip_analysis_tutorial.pdf)
