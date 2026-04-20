@@ -1,4 +1,4 @@
-# Useful Links for the Team
+# Useful Links for the PhD. Weekly notes found here [Weekly notes](https://jgumainz-my.sharepoint.com/personal/ewrightl_uni-mainz_de/_layouts/15/doc.aspx?sourcedoc={3b000174-362a-4bd0-83b9-7301df1a16d1}&action=edit)
 
 ## Papers
 - [Design and development of calorimetry at SHiP and SND@LHC](https://openscience.ub.uni-mainz.de/items/901302bf-320c-4ebb-8c77-0136b5770b88)
