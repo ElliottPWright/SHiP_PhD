@@ -1,2 +1,9 @@
 bash
 ssh elwright@lxplus.cern.ch
+
+
+# Example using a modern LCG stack
+source /cvmfs/sft.cern.ch/lcg/views/LCG_106/x86_64-el9-gcc13-opt/setup.sh
+# or similar for alma9/centos7 depending on your lxplus environment
+
+https://github.com/celeritas-project/GeoModel
