@@ -1,9 +1,53 @@
 bash
-ssh elwright@lxplus.cern.ch
+ssh -XY elwright@lxplus.cern.ch
 
+source /cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc13-opt/setup.sh
+
+echo $CMAKE_PREFIX_PATH # should see /cvmfs
+
+cd /eos/user/e/elwright/geomodel_stack/GeoModel
+rm -rf build install
+mkdir build install
+cd build
+
+cmake .. \
+  -DCMAKE_INSTALL_PREFIX=../install \
+  -DCMAKE_BUILD_TYPE=Release \
+  -DCMAKE_CXX_STANDARD=20
+
+make -j4
+make install
+
+find ../install -name "GeoModelCoreConfig.cmake"
+
+cd /eos/user/e/elwright/geomodel_stack/GeoModelG4
+rm -rf build install
+mkdir build install
+cd build
+
+cmake .. \
+  -DCMAKE_INSTALL_PREFIX=../install \
+  -DCMAKE_BUILD_TYPE=Release \
+  -DCMAKE_CXX_STANDARD=20 \
+  -DCMAKE_PREFIX_PATH=/eos/user/e/elwright/geomodel_stack/GeoModel/install:$CMAKE_PREFIX_PATH
+
+grep -R "3.2.0" -n /eos/user/e/elwright/geomodel_stack/GeoModelG4 # remove references to find_package(GeoModelCore 3.2.0 REQUIRED)
+
+cd /eos/user/e/elwright/geomodel_stack/GeoModelG4
+rm -rf build install
+mkdir build install
+cd build 
+
+# then run the above until it works
+
+make -j4
+make install
+find ../install -name "GeoModelG4Config.cmake"
 
 # Example using a modern LCG stack
 source /cvmfs/sft.cern.ch/lcg/views/LCG_106/x86_64-el9-gcc13-opt/setup.sh
 # or similar for alma9/centos7 depending on your lxplus environment
 
 https://github.com/celeritas-project/GeoModel
+
+
