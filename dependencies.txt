@@ -58,3 +58,19 @@ cmake .. \
   -DCMAKE_BUILD_TYPE=Release \
   -DCMAKE_CXX_STANDARD=20 \
   -DCMAKE_PREFIX_PATH=/eos/user/e/elwright/geomodel_stack/GeoModel/install:$CMAKE_PREFIX_PATH
+
+make -j4
+make install
+
+export CMAKE_PREFIX_PATH=/eos/user/e/elwright/geomodel_stack/GeoModel/install:/eos/user/e/elwright/geomodel_stack/GeoModelG4/install:$CMAKE_PREFIX_PATH
+export EIGEN_ROOT=/eos/user/e/elwright/geomodel_stack/externals/eigen/install
+export MOTIF_ROOT=/eos/user/e/elwright/geomodel_stack/externals/motif/install
+
+cd ~/GeoModelSplitCal
+mkdir build
+cd build
+
+cmake .. \
+  -DCMAKE_PREFIX_PATH=$CMAKE_PREFIX_PATH
+
+make -j4
