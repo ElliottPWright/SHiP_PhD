@@ -33,3 +33,6 @@ export MOTIF_ROOT=/eos/user/e/elwright/geomodel_stack/externals/motif/install
 cd /eos/user/e/elwright/geomodel_stack
 git clone https://gitlab.cern.ch/GeoModelDev/GeoModel.git
 cd GeoModel
+
+mkdir build install
+cd build
