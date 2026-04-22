@@ -51,3 +51,6 @@
 - [SHiP Friday Calorimetry 1 p.m.](https://cern.zoom.us/j/96300113241?pwd=dnR4L3JGU05USFB3RGk1WGRSZ1NNQT09)
 - [SHiP Friday Software 3 p.m.](https://indico.cern.ch/event/1673406/)
 - [Computer Safety Course](https://cern.ch/computersecuritycourse)
+
+## JGU References
+- [Travel Reimbursement](https://digitale-dienste.uni-mainz.de/jobrouter/index.php/login?error=Authentifizierung%20ist%20fehlgeschlagen&cmd=logout&redirect=false&loginMessages=W10%3D)
