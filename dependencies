@@ -1,3 +1,28 @@
 Run the following commands:
 
-source /cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc12-opt/setup.sh
+source /cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc13-opt/setup.sh
+cd /eos/user/e/elwright
+mkdir local
+cd local
+
+git clone https://gitlab.com/libeigen/eigen.git
+cd eigen
+mkdir build && cd build
+cmake .. -DCMAKE_INSTALL_PREFIX=$HOME/local
+make install
+
+cd ..
+git clone https://github.com/CPFDSoftware/gmv-openmotif.git motif
+cd motif
+./configure --prefix=$HOME/local
+make -j4
+make install
+
+export CMAKE_PREFIX_PATH=$HOME/local:$CMAKE_PREFIX_PATH
+export LD_LIBRARY_PATH=$HOME/local/lib:$LD_LIBRARY_PATH
+export CPATH=$HOME/local/include:$CPATH
+
+cd ~/GeoModelSplitCal
+mkdir build && cd build
+cmake ..
+make -j4
