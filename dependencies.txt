@@ -17,3 +17,15 @@ cmake .. \
   -DCMAKE_INSTALL_PREFIX=../install
 
 make install
+
+echo $DISPLAY (WORKED)
+
+curl -L -o motif.tar.gz https://sourceforge.net/projects/motif/files/Motif%202.3.8%20Source%20Code/motif-2.3.8.tar.gz/download
+tar -xvzf motif.tar.gz
+cd motif-2.3.8
+make clean
+./configure   --prefix=/eos/user/e/elwright/geomodel_stack/externals/motif/install   CPPFLAGS="-I/usr/include/freetype2"
+make -j2
+make install
+export EIGEN_ROOT=/eos/user/e/elwright/geomodel_stack/externals/eigen/install
+export MOTIF_ROOT=/eos/user/e/elwright/geomodel_stack/externals/motif/install
