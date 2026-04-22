@@ -1,1 +1,19 @@
-fdgdgd
+cd ~
+unset CMAKE_PREFIX_PATH
+unset GeoModel_DIR
+source /cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc13-opt/setup.sh
+
+mkdir -p /eos/user/e/elwright/geomodel_stack/externals
+cd /eos/user/e/elwright/geomodel_stack
+
+cd externals
+git clone https://gitlab.com/libeigen/eigen.git
+cd eigen
+
+mkdir build install
+cd build
+
+cmake .. \
+  -DCMAKE_INSTALL_PREFIX=../install
+
+make install
