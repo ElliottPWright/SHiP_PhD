@@ -8,7 +8,7 @@ cd local
 git clone https://gitlab.com/libeigen/eigen.git
 cd eigen
 mkdir build && cd build
-cmake .. -DCMAKE_INSTALL_PREFIX=$HOME/local
+cmake .. -DCMAKE_INSTALL_PREFIX=../../
 make install
 
 cd ..
@@ -26,3 +26,4 @@ cd ~/GeoModelSplitCal
 mkdir build && cd build
 cmake ..
 make -j4
+
