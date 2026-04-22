@@ -36,3 +36,18 @@ cd GeoModel
 
 mkdir build install
 cd build
+
+cmake .. \
+  -DCMAKE_INSTALL_PREFIX=../install \
+  -DCMAKE_BUILD_TYPE=Release \
+  -DCMAKE_CXX_STANDARD=20
+
+make -j4
+make install
+
+cd /eos/user/e/elwright/geomodel_stack
+git clone https://gitlab.cern.ch/GeoModelDev/GeoModelG4.git
+cd GeoModelG4
+
+mkdir build install
+cd build
