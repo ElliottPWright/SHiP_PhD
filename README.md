@@ -38,6 +38,7 @@
 - [Robert Schoefbeck's YouTube](https://www.youtube.com/@robertschoefbeck3637/videos)
 - [Physics Matters YouTube Channel](https://www.youtube.com/@physics_matters/playlists)
 - [Experimental High-Energy Physics (Sci & Tech)](https://www.youtube.com/@advance_sci_tech_SK_IITBombay/videos)
+- [GitHub Interactive Tutorial](https://learngitbranching.js.org/)
 
 ## CERN References
 - [SHiP Twiki](https://twiki.cern.ch/twiki/bin/viewauth/Ship/WebHome)
