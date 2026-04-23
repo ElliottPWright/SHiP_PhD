@@ -56,3 +56,4 @@
 
 ## JGU References
 - [Travel Reimbursement](https://digitale-dienste.uni-mainz.de/jobrouter/index.php/login?error=Authentifizierung%20ist%20fehlgeschlagen&cmd=logout&redirect=false&loginMessages=W10%3D)
+- [Travel Guidelines](https://www.verwaltung.personal.uni-mainz.de/files/2025/04/Dienstreise-Merkblatt-zum-Genehmigungsverfahren2025-engl.pdf)
