@@ -81,3 +81,5 @@ cmake .. \
   -DCMAKE_PREFIX_PATH=$CMAKE_PREFIX_PATH
 
 make -j4
+
+# If anything fails at the cmake/make stage, just delete and rebuild the build directory
