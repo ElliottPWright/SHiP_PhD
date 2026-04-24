@@ -78,7 +78,10 @@ mkdir build
 cd build
 
 cmake .. \
-  -DCMAKE_PREFIX_PATH=$CMAKE_PREFIX_PATH
+  -DCMAKE_PREFIX_PATH=$CMAKE_PREFIX_PATH \
+  -DMOTIF_INCLUDE_DIR=$MOTIF_ROOT/include \
+  -DMOTIF_LIBRARIES="$MOTIF_ROOT/lib/libXm.so" \
+  -DCMAKE_EXE_LINKER_FLAGS="-lXft"
 
 make -j4
 
