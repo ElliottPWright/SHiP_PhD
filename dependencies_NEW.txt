@@ -44,6 +44,34 @@ export MOTIF_ROOT=/eos/user/e/elwright/geomodel_stack/externals/motif/install
 
 
 
+
+
+# --- Qt6 ---
+
+mkdir -p /eos/user/e/elwright/geomodel_stack/externals/qt6
+cd /eos/user/e/elwright/geomodel_stack/externals
+
+git clone https://code.qt.io/qt/qt5.git qt6
+cd qt6
+
+perl init-repository --module-subset=default
+
+mkdir build && cd build
+
+cmake .. \
+  -DCMAKE_INSTALL_PREFIX=/eos/user/e/elwright/geomodel_stack/externals/qt6/install \
+  -DCMAKE_BUILD_TYPE=Release \
+  -DBUILD_SHARED_LIBS=ON \
+  -DQT_FEATURE_opengl=desktop
+
+make -j2
+make install
+
+
+
+
+
+
 # --- GeoModel + GeoModelG4 ---
 
 cd /eos/user/e/elwright/geomodel_stack
@@ -64,8 +92,6 @@ cmake .. \
 
 make -j2
 make install
-
-
 
 
 
