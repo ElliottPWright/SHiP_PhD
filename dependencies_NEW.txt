@@ -87,3 +87,4 @@ cmake .. \
 make -j4
 
 # If anything fails at the cmake/make stage, just delete and rebuild the build directory
+# To find things that may be missing, simply type: find /eos/user/e/elwright/geomodel_stack -name <THING MISSING> 2>/dev/null
