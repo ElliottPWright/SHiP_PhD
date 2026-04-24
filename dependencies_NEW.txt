@@ -10,6 +10,8 @@ cd /eos/user/e/elwright/geomodel_stack/externals
 
 
 
+
+
 # --- Eigen ---
 
 git clone https://gitlab.com/libeigen/eigen.git
@@ -22,6 +24,8 @@ cmake .. \
   -DCMAKE_INSTALL_PREFIX=../install
 
 make install
+
+
 
 
 
