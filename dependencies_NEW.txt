@@ -71,7 +71,9 @@ make install
 
 # --- GeoModelSplitCal ---
 
-cd ~/GeoModelSplitCal
+cd /eos/user/e/elwright/
+git clone https://github.com/ElliottPWright/GeoModelSplitCal.git
+cd GeoModelSplitCal
 mkdir build
 cd build
 
