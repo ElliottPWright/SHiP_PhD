@@ -8,6 +8,8 @@ source /cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc13-opt/setup.sh
 mkdir -p /eos/user/e/elwright/geomodel_stack/externals
 cd /eos/user/e/elwright/geomodel_stack/externals
 
+
+
 # --- Eigen ---
 
 git clone https://gitlab.com/libeigen/eigen.git
@@ -21,6 +23,9 @@ cmake .. \
 
 make install
 
+
+
+
 # --- Motif ---
 
 echo $DISPLAY (WORKED)
@@ -32,8 +37,12 @@ make clean
 ./configure   --prefix=/eos/user/e/elwright/geomodel_stack/externals/motif/install   CPPFLAGS="-I/usr/include/freetype2"
 make -j2
 make install
+
 export EIGEN_ROOT=/eos/user/e/elwright/geomodel_stack/externals/eigen/install
 export MOTIF_ROOT=/eos/user/e/elwright/geomodel_stack/externals/motif/install
+
+
+
 
 # --- GeoModel + GeoModelG4 ---
 
@@ -72,6 +81,12 @@ make install
 export CMAKE_PREFIX_PATH=/eos/user/e/elwright/geomodel_stack/GeoModel/install:$CMAKE_PREFIX_PATH
 export EIGEN_ROOT=/eos/user/e/elwright/geomodel_stack/externals/eigen/install
 export MOTIF_ROOT=/eos/user/e/elwright/geomodel_stack/externals/motif/install
+
+
+
+
+
+# --- GeoModelSplitCal ---
 
 cd ~/GeoModelSplitCal
 mkdir build
