@@ -60,6 +60,10 @@ cd qt6
 
 perl init-repository --module-subset=default
 
+(IF THIS FAILS, RUN
+git submodule sync
+git submodule update --init --recursive)
+
 mkdir build && cd build
 
 cmake .. \
