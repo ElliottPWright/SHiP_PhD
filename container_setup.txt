@@ -1,0 +1,36 @@
+apptainer --version [WORKED]
+
+apptainer shell /cvmfs/unpacked.cern.ch/registry.hub.docker.com/library/almalinux:9
+
+source /cvmfs/sft.cern.ch/lcg/views/LCG_108/x86_64-el9-gcc13-opt/setup.sh
+
+cd /eos/user/e/elwright
+mkdir -p geomodel_container
+cd geomodel_container
+
+git clone https://gitlab.cern.ch/GeoModelDev/GeoModel.git
+cd GeoModel
+
+mkdir build install
+cd build
+
+cmake .. \
+  -DCMAKE_INSTALL_PREFIX=../install \
+  -DCMAKE_BUILD_TYPE=Release \
+  -DCMAKE_CXX_STANDARD=20 \
+  -DGEOMODEL_BUILD_GEOMODELG4=ON \
+  -DGEOMODEL_BUILD_VISUALIZATION=ON
+
+make -j4
+make install
+
+cd ~/GeoModelSplitCal
+rm -rf build
+mkdir build && cd build
+
+cmake .. \
+  -DCMAKE_PREFIX_PATH=/eos/user/e/elwright/geomodel_container/GeoModel/install
+
+make -j4
+
+./run_g4 geometry.db
