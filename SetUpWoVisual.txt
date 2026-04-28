@@ -107,21 +107,19 @@ cd $BASEDIR
 # 4. GeoModelSplitCal
 ############################################################
 
-rm -rf GeoModelSplitCal
+cd /eos/user/e/elwright/
 git clone https://github.com/ElliottPWright/GeoModelSplitCal.git
 cd GeoModelSplitCal
-
-rm -rf build
 mkdir build
 cd build
 
-cmake .. \
-  -DCMAKE_BUILD_TYPE=Release \
-  -DCMAKE_CXX_STANDARD=20 \
-  -DEigen3_DIR=$EIGEN_ROOT/lib/cmake/eigen3 \
-  -DGeoModel_DIR=$GeoModel_DIR \
-  -DMOTIF_INCLUDE_DIR=$MOTIF_ROOT/include \
-  -DMOTIF_LIBRARIES=$MOTIF_ROOT/lib/libXm.so \
-  -DCMAKE_PREFIX_PATH="$EIGEN_ROOT;$GeoModel_DIR;$MOTIF_ROOT"
+export CMAKE_PREFIX_PATH=/eos/user/e/elwright/geomodel_stack/GeoModel/install:$CMAKE_PREFIX_PATH
 
-make -j$(nproc)
+cmake .. \
+  -DCMAKE_PREFIX_PATH=$CMAKE_PREFIX_PATH \
+  -DMOTIF_INCLUDE_DIR=$MOTIF_ROOT/include \
+  -DGeoModelCore_DIR=$GeoModelCore_DIR \
+  -DMOTIF_LIBRARIES="$MOTIF_ROOT/lib/libXm.so" \
+  -DCMAKE_EXE_LINKER_FLAGS="-lXft"
+
+make -j4
