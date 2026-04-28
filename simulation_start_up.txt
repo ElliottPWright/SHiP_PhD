@@ -1,1 +1,9 @@
+cd /eos/user/e/elwright/GeoModelSplitCal/build
+
+Need to run this every time a change is made to run.cfg
+
+cmake ..
+make
+./make_leadplate_db
+./run_g4
 
