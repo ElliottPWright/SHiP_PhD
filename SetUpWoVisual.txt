@@ -1,96 +1,127 @@
-# Simulation set-up without visualisation
-
-# --- Environment Set-up ---
+############################################################
+# 0. Environment (LCG 108)
+############################################################
 
 cd ~
 unset CMAKE_PREFIX_PATH
 unset GeoModel_DIR
+
 source /cvmfs/sft.cern.ch/lcg/views/LCG_108/x86_64-el9-gcc13-opt/setup.sh
 
-mkdir -p /eos/user/e/elwright/geomodel_stack/externals
-cd /eos/user/e/elwright/geomodel_stack/externals
+# Optional but strongly recommended (avoids EOS linker weirdness)
+export BASEDIR=/eos/user/e/elwright/geomodel_stack
+mkdir -p $BASEDIR/{externals,build,install}
+cd $BASEDIR/externals
 
 
+############################################################
+# 1. Eigen (header-only)
+############################################################
 
-
-
-# --- Eigen ---
-
+rm -rf eigen
 git clone https://gitlab.com/libeigen/eigen.git
 cd eigen
 
+rm -rf build install
 mkdir build install
 cd build
 
 cmake .. \
-  -DCMAKE_INSTALL_PREFIX=../install
+  -DCMAKE_INSTALL_PREFIX=$BASEDIR/externals/eigen/install
 
+make -j$(nproc)
 make install
 
+export EIGEN_ROOT=$BASEDIR/externals/eigen/install
+cd $BASEDIR/externals
 
 
+############################################################
+# 2. Motif (X11 dependency)
+############################################################
 
+rm -rf motif-2.3.8 motif.tar.gz
 
+curl -L -o motif.tar.gz \
+  https://sourceforge.net/projects/motif/files/Motif%202.3.8%20Source%20Code/motif-2.3.8.tar.gz/download
 
-# --- Motif ---
-
-echo $DISPLAY (WORKED)
-
-curl -L -o motif.tar.gz https://sourceforge.net/projects/motif/files/Motif%202.3.8%20Source%20Code/motif-2.3.8.tar.gz/download
-tar -xvzf motif.tar.gz
+tar -xzf motif.tar.gz
 cd motif-2.3.8
+
+export LCG_LIB=/cvmfs/sft.cern.ch/lcg/releases
+
+export CPPFLAGS="-I/usr/include/freetype2"
+export LDFLAGS="-L$LCG_LIB/brotli/*/x86_64-el9-gcc13-opt/lib \
+                -L$LCG_LIB/freetype/*/x86_64-el9-gcc13-opt/lib \
+                -L$LCG_LIB/fontconfig/*/x86_64-el9-gcc13-opt/lib"
+
+./configure \
+  --prefix=$MOTIF_ROOT \
+  CPPFLAGS="-I/usr/include/freetype2" \
+  LDFLAGS="-lbrotlidec -lbrotlicommon"
+
+export LD_LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/brotli/1.1.0/x86_64-el9-gcc13-opt/lib:$LD_LIBRARY_PATH
 make clean
-./configure   --prefix=/eos/user/e/elwright/geomodel_stack/externals/motif/install   CPPFLAGS="-I/usr/include/freetype2"
 make -j2
-make install
 
-export EIGEN_ROOT=/eos/user/e/elwright/geomodel_stack/externals/eigen/install
-export MOTIF_ROOT=/eos/user/e/elwright/geomodel_stack/externals/motif/install
+export MOTIF_ROOT=$BASEDIR/externals/motif/install
+
+# runtime linking (IMPORTANT)
+export LD_LIBRARY_PATH=$MOTIF_ROOT/lib:$LD_LIBRARY_PATH
+
+cd $BASEDIR/externals
 
 
+############################################################
+# 3. GeoModel (NO Qt)
+############################################################
 
-
-# --- GeoModel + GeoModelG4 ---
-
-cd /eos/user/e/elwright/geomodel_stack
+rm -rf GeoModel
 git clone https://gitlab.cern.ch/GeoModelDev/GeoModel.git
 cd GeoModel
 
+rm -rf build install
 mkdir build install
 cd build
 
 cmake .. \
-  -DCMAKE_INSTALL_PREFIX=/eos/user/e/elwright/geomodel_stack/GeoModel/install \
+  -DCMAKE_INSTALL_PREFIX=$BASEDIR/GeoModel/install \
   -DCMAKE_BUILD_TYPE=Release \
   -DCMAKE_CXX_STANDARD=20 \
   -DGEOMODEL_BUILD_GEOMODELG4=ON \
+  -DGEOMODEL_BUILD_GEOMODEL_GUI=OFF \
+  -DGEOMODEL_USE_QT=OFF \
   -DMOTIF_INCLUDE_DIR=$MOTIF_ROOT/include \
   -DMOTIF_LIBRARIES=$MOTIF_ROOT/lib/libXm.so
 
-make -j2
+make -j$(nproc)
 make install
 
+export GeoModel_DIR=$BASEDIR/GeoModel/install/lib/cmake/GeoModel
+export LD_LIBRARY_PATH=$BASEDIR/GeoModel/install/lib:$LD_LIBRARY_PATH
+
+cd $BASEDIR
 
 
+############################################################
+# 4. GeoModelSplitCal
+############################################################
 
-# --- GeoModelSplitCal ---
-
-cd /eos/user/e/elwright/
+rm -rf GeoModelSplitCal
 git clone https://github.com/ElliottPWright/GeoModelSplitCal.git
 cd GeoModelSplitCal
+
+rm -rf build
 mkdir build
 cd build
 
 cmake .. \
-  -DCMAKE_PREFIX_PATH=$CMAKE_PREFIX_PATH \
+  -DCMAKE_BUILD_TYPE=Release \
+  -DCMAKE_CXX_STANDARD=20 \
+  -DEigen3_DIR=$EIGEN_ROOT/lib/cmake/eigen3 \
+  -DGeoModel_DIR=$GeoModel_DIR \
   -DMOTIF_INCLUDE_DIR=$MOTIF_ROOT/include \
-  -DMOTIF_LIBRARIES="$MOTIF_ROOT/lib/libXm.so" \
-  -DCMAKE_EXE_LINKER_FLAGS="-lXft"
+  -DMOTIF_LIBRARIES=$MOTIF_ROOT/lib/libXm.so \
+  -DCMAKE_PREFIX_PATH="$EIGEN_ROOT;$GeoModel_DIR;$MOTIF_ROOT"
 
-make -j4
-
-# If anything fails at the cmake/make stage, just delete and rebuild the build directory
-# To find things that may be missing, simply type: find /eos/user/e/elwright/geomodel_stack -name <THING MISSING> 2>/dev/null
-
-
-
+make -j$(nproc)
