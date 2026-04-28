@@ -48,21 +48,21 @@ curl -L -o motif.tar.gz \
 tar -xzf motif.tar.gz
 cd motif-2.3.8
 
-export LCG_LIB=/cvmfs/sft.cern.ch/lcg/releases
+export LCG=/cvmfs/sft.cern.ch/lcg/releases
 
 export CPPFLAGS="-I/usr/include/freetype2"
-export LDFLAGS="-L$LCG_LIB/brotli/*/x86_64-el9-gcc13-opt/lib \
-                -L$LCG_LIB/freetype/*/x86_64-el9-gcc13-opt/lib \
-                -L$LCG_LIB/fontconfig/*/x86_64-el9-gcc13-opt/lib"
+
+export LDFLAGS="\
+-L$LCG/brotli/1.1.0/x86_64-el9-gcc13-opt/lib \
+-L$LCG/freetype/2.13.3-013f6/x86_64-el9-gcc13-opt/lib \
+-L$LCG/fontconfig/2.14.2-0c670/x86_64-el9-gcc13-opt/lib \
+-lbrotlidec -lbrotlicommon"
 
 ./configure \
-  --prefix=$MOTIF_ROOT \
-  CPPFLAGS="-I/usr/include/freetype2" \
-  LDFLAGS="-lbrotlidec -lbrotlicommon"
+  --prefix=/eos/user/e/elwright/geomodel_stack/externals/motif/install
 
-export LD_LIBRARY_PATH=/cvmfs/sft.cern.ch/lcg/releases/brotli/1.1.0/x86_64-el9-gcc13-opt/lib:$LD_LIBRARY_PATH
-make clean
 make -j2
+make install
 
 export MOTIF_ROOT=$BASEDIR/externals/motif/install
 
