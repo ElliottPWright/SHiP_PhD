@@ -66,6 +66,9 @@ git submodule update --init --recursive)
 
 mkdir build && cd build
 
+realpath /eos/user/e/elwright/geomodel_stack/externals/qt6/build  (WORKED)
+cd $(realpath /eos/user/e/elwright/geomodel_stack/externals/qt6/build)
+
 cmake .. \
   -DCMAKE_INSTALL_PREFIX=/eos/user/e/elwright/geomodel_stack/externals/qt6/install \
   -DCMAKE_BUILD_TYPE=Release \
