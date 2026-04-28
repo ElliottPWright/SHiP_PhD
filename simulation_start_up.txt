@@ -7,3 +7,13 @@ make
 ./make_leadplate_db
 ./run_g4
 
+Now calosim_out_10000MeV_mu-.root will be created
+
+root calosim_out_10000MeV_mu-.root
+TFile f("calosim_out_10000MeV_mu-.root");
+f.ls()
+
+File* f = TFile::Open("calosim_out_10000MeV_mu-.root");
+TTree* t = (TTree*)f->Get("calo_events");
+t->Print();
+t->Scan();
