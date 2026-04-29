@@ -4,3 +4,7 @@ pip install --target=/eos/user/e/elwright/python_packages uproot awkward numpy m
 export PYTHONPATH=/eos/user/e/elwright/python_packages
 unset PYTHONHOME
 python -c "import numpy; print(numpy.__version__, numpy.__file__)"     #Should output version 2.0.2
+
+
+mkdir -p /eos/user/e/elwright/.config/matplotlib
+export MPLCONFIGDIR=/eos/user/e/elwright/.config/matplotlib
