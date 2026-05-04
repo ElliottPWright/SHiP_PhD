@@ -22,6 +22,7 @@
 - [My Courses](https://moodle.uni-mainz.de/my/courses.php)
 
 ## Websites
+- [What is a SiPM](https://hub.hamamatsu.com/us/en/technical-notes/mppc-sipms/what-is-an-SiPM-and-how-does-it-work.html)
 - [FairSHiP GitHub](https://github.com/ShipSoft/FairShip/tree/master)
 - [FairSHiP Tutorial (2015)](https://indico.cern.ch/event/406571/contributions/974650/attachments/1167167/1711234/FairShip_analysis_tutorial.pdf)
 - [SHiP calorimetry](https://indico.cern.ch/event/644961/contributions/2714869/attachments/1538818/2412152/Paris_SHiP.pdf?utm_source=chatgpt.com)
