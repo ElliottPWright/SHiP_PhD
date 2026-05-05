@@ -23,6 +23,7 @@
 - [My Courses](https://moodle.uni-mainz.de/my/courses.php)
 
 ## Websites
+- [Submitting Condor Jobs](https://htcondor.readthedocs.io/en/v8_8/users-manual/submitting-a-job.html)
 - [What is a SiPM](https://hub.hamamatsu.com/us/en/technical-notes/mppc-sipms/what-is-an-SiPM-and-how-does-it-work.html)
 - [FairSHiP GitHub](https://github.com/ShipSoft/FairShip/tree/master)
 - [FairSHiP Tutorial (2015)](https://indico.cern.ch/event/406571/contributions/974650/attachments/1167167/1711234/FairShip_analysis_tutorial.pdf)
