@@ -1,8 +1,8 @@
 # Useful Links for the PhD. Weekly notes found here: [Weekly notes](https://jgumainz-my.sharepoint.com/personal/ewrightl_uni-mainz_de/_layouts/15/doc.aspx?sourcedoc={3b000174-362a-4bd0-83b9-7301df1a16d1}&action=edit). Current jobs can be found here: [Current Jobs](https://jgumainz-my.sharepoint.com/personal/ewrightl_uni-mainz_de/_layouts/15/doc.aspx?sourcedoc={70196d9a-3d59-4d95-953f-9c89e31a048d}&action=edit)
 
 ## Simulation instructions
-- Found in simulation_instructions.txt
-- Found in SetUpWoVisual.txt
+- Build dependencies in SetUpWoVisual.txt
+- Simulation run in 
 
 ## Papers
 - [Design and development of calorimetry at SHiP and SND@LHC](https://openscience.ub.uni-mainz.de/items/901302bf-320c-4ebb-8c77-0136b5770b88)
