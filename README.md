@@ -2,7 +2,8 @@
 
 ## Simulation instructions
 - Build dependencies in SetUpWoVisual.txt
-- Simulation run in 
+- Simulation run in simulation_start_up.txt
+
 
 ## Papers
 - [Design and development of calorimetry at SHiP and SND@LHC](https://openscience.ub.uni-mainz.de/items/901302bf-320c-4ebb-8c77-0136b5770b88)
