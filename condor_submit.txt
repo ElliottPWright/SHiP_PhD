@@ -1,0 +1,3 @@
+
+cd
+python3 /eos/user/e/elwright/GeoModelSplitCal/SHiP_condor.py  -o /eos/user/e/elwright/EPWL_ECAL_Simulations/sim_runs -n 5 -t run_HOPE
