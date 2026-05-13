@@ -1,1 +1,1 @@
-scp -rp elwright@lxplus.cern.ch:/eos/user/e/elwright/EPWL_ECAL_Simulations/sim_runs/run_Gap/ C:\Users\ellio\OneDrive - JGU\PhD_Work\ROOT_FILES
+scp -rp elwright@lxplus.cern.ch:/eos/user/e/elwright/EPWL_ECAL_Simulations/sim_runs/run_Gap/ 'C:\Users\ellio\OneDrive - JGU\PhD_Work\ROOT_FILES'
