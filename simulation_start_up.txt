@@ -15,7 +15,7 @@ root calosim_out_10000MeV_mu-.root
 TFile f("calosim_out_10000MeV_mu-.root");
 f.ls()
 
-File* f = TFile::Open("calosim_out_10000MeV_mu-.root");
+TFile* f = TFile::Open("calosim_out_10000MeV_mu-.root");
 TTree* t = (TTree*)f->Get("calo_events");
 t->Print();
 t->Scan();
