@@ -44,6 +44,7 @@
 - [Physics Matters YouTube Channel](https://www.youtube.com/@physics_matters/playlists)
 - [Experimental High-Energy Physics (Sci & Tech)](https://www.youtube.com/@advance_sci_tech_SK_IITBombay/videos)
 - [GitHub Interactive Tutorial](https://learngitbranching.js.org/)
+- [Plotly Documentation](https://plotly.com/python/creating-and-updating-figures/)
 
 ## CERN References
 - [SHiP Twiki](https://twiki.cern.ch/twiki/bin/viewauth/Ship/WebHome)
