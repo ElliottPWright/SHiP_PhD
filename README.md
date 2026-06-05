@@ -45,6 +45,7 @@
 - [Experimental High-Energy Physics (Sci & Tech)](https://www.youtube.com/@advance_sci_tech_SK_IITBombay/videos)
 - [GitHub Interactive Tutorial](https://learngitbranching.js.org/)
 - [Plotly Documentation](https://plotly.com/python/creating-and-updating-figures/)
+- [General Particle Source Documentation](https://geant4.web.cern.ch/documentation/dev/bfad_html/ForApplicationDevelopers/GettingStarted/generalParticleSource.html)
 
 ## CERN References
 - [SHiP Twiki](https://twiki.cern.ch/twiki/bin/viewauth/Ship/WebHome)
