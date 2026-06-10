@@ -46,6 +46,7 @@
 - [GitHub Interactive Tutorial](https://learngitbranching.js.org/)
 - [Plotly Documentation](https://plotly.com/python/creating-and-updating-figures/)
 - [General Particle Source Documentation](https://geant4.web.cern.ch/documentation/dev/bfad_html/ForApplicationDevelopers/GettingStarted/generalParticleSource.html)
+- [Geant4 Tracking](https://indico.cern.ch/event/472305/contributions/1982331/attachments/1223729/1790331/Tracking.pdf)
 
 ## CERN References
 - [SHiP Twiki](https://twiki.cern.ch/twiki/bin/viewauth/Ship/WebHome)
