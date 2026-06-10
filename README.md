@@ -13,6 +13,7 @@
 - [A Pointing Electromagnetic Calorimeter for FIP Experiments leveraging X → γγ Decays](https://inspirehep.net/literature/2899735)
 - [BDF/SHiP at the ECN3 high-intensity beam facility](https://cds.cern.ch/record/2878604/?ln=en)
 - [BDF/SHiP Annual Report 2025](https://cds.cern.ch/record/2948477)
+- [Momentum Measurement of Charged Particles in FASER's Emulsion Detector at the LHC](https://cds.cern.ch/record/2955093)
 
 ## Books
 - [Particle Detectors: Fundamentals and Applications](https://academic.oup.com/book/43645)
