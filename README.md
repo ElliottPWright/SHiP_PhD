@@ -6,6 +6,7 @@
 
 
 ## Papers
+- [The SHiP/NA67 experiment at the ECN3 high-intensity beam facility at the CERN SPS](https://inspirehep.net/literature/3167127)
 - [Design and development of calorimetry at SHiP and SND@LHC](https://openscience.ub.uni-mainz.de/items/901302bf-320c-4ebb-8c77-0136b5770b88)
 - [SHiP experiment at the SPS Beam Dump Facility](https://inspirehep.net/literature/2910156)
 - [The experimental facility for the Search for Hidden Particles at the CERN SPS](https://inspirehep.net/literature/1698888)
