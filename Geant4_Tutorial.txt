@@ -1,0 +1,5 @@
+The tutorial for installation can be found here https://www.youtube.com/watch?v=4DTumUo3IKw&t=777s
+
+# Need to source this from cvmfs so that exampleB1 will work
+
+source /cvmfs/sft.cern.ch/lcg/views/LCG_107/x86_64-el9-gcc13-opt/setup.sh
