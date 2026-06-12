@@ -15,6 +15,8 @@
 - [BDF/SHiP at the ECN3 high-intensity beam facility](https://cds.cern.ch/record/2878604/?ln=en)
 - [BDF/SHiP Annual Report 2025](https://cds.cern.ch/record/2948477)
 - [Momentum Measurement of Charged Particles in FASER's Emulsion Detector at the LHC](https://cds.cern.ch/record/2955093)
+- [GEOMETRY DESCRIPTION MARKUP LANGUAGE AND ITS
+APPLICATION-SPECIFIC BINDINGS](https://indico.cern.ch/event/408139/contributions/979922/attachments/815913/1118019/GDML_CHEP06.pdf)
 
 ## Books
 - [Particle Detectors: Fundamentals and Applications](https://academic.oup.com/book/43645)
