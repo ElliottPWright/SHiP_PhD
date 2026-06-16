@@ -29,6 +29,7 @@ APPLICATION-SPECIFIC BINDINGS](https://indico.cern.ch/event/408139/contributions
 
 ## FairSHiP Documentation
 - [Phlex Documentation](https://framework-r-d.github.io/phlex-design/)
+- [Mark Smith Trout Reco](https://github.com/mesmith75/trout)
 
 
 ## Websites
