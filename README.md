@@ -61,6 +61,7 @@ APPLICATION-SPECIFIC BINDINGS](https://indico.cern.ch/event/408139/contributions
 - [SHiP Twiki](https://twiki.cern.ch/twiki/bin/viewauth/Ship/WebHome)
 - [CVMFS Documentation](https://cvmfs.readthedocs.io/en/stable/cpt-quickstart.html)
 - [Geant4 Documentation](https://geant4.web.cern.ch/documentation/dev/ig_html/InstallationGuide/index.html)
+- [LpGBT Manual](https://cds.cern.ch/record/2809058/files/lpGBT_manual.pdf)
 - [Newcomers & returning users](https://usersoffice.web.cern.ch/pre-arrival-formalities-and-information)
 - [EDH pre-registration PREG](https://usersoffice.web.cern.ch/i-am-pre-registered-what-happens-next)
 - [Post EDH approval](https://usersoffice.web.cern.ch/edh-pre-registration-form#what-happens-after-submission)
