@@ -6,6 +6,7 @@
 
 
 ## Papers
+- [The SHiP/NA67 experiment at the ECN3 high-intensity beam facility at the CERN SPS](https://inspirehep.net/literature/3167127)
 - [Design and development of calorimetry at SHiP and SND@LHC](https://openscience.ub.uni-mainz.de/items/901302bf-320c-4ebb-8c77-0136b5770b88)
 - [SHiP experiment at the SPS Beam Dump Facility](https://inspirehep.net/literature/2910156)
 - [The experimental facility for the Search for Hidden Particles at the CERN SPS](https://inspirehep.net/literature/1698888)
@@ -13,14 +14,23 @@
 - [A Pointing Electromagnetic Calorimeter for FIP Experiments leveraging X → γγ Decays](https://inspirehep.net/literature/2899735)
 - [BDF/SHiP at the ECN3 high-intensity beam facility](https://cds.cern.ch/record/2878604/?ln=en)
 - [BDF/SHiP Annual Report 2025](https://cds.cern.ch/record/2948477)
-- [Practical statistics for particle physics](https://arxiv.org/pdf/1905.12362)
-- [Conditional Probability in Physics](https://watermark02.silverchair.com/E65-135.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAA1swggNXBgkqhkiG9w0BBwagggNIMIIDRAIBADCCAz0GCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMUpyW73mua46rjb0aAgEQgIIDDtQIgEQHjiA6o-BYXL2xBtUODnnSL_35fyKqxkVc2wuFiWXeQyIUCJ02YvOsqEXdS9Aez4VgiHLsKL8ACNmm8oURDZHo4RxqmZLHqIWqmu8Oi3XSVpE6qXcugluaReTdlVHQwTa80PGJo_VtC8d5C_-4VvS93jZEeBD2zyYfzIKpwIadRp7D7QnbJvXBxdC6fSh6EV7KAY51zyl_L-7tJopUtADrLCqzJQcw-Gac3lI3WekkNeF4a4ho0bAm7J_625lCEadWHUa0X9ZYJhwOOZKopGjnBw9-5mJDG7QLLuBQFHjlafvHhd_Bzdksk347rq_7zF3wzSLwXM50lFdyCIhMSyUVy5k4FeItJF2aObkc3CrdgBd7n004_J_GheZQAuK1Mghk6pBUQ3eZcfG5WA2sgegFSAzInLnuRPeUqUcvvQ9JKAbyJSoe26_ArYZ2JOC0-nW5Z5Bnjd8STd2kp0ZzIEjgzlkR0AT2Rezh_w_ygCAux8dqmU8UQyw_p1SM3ItKWrcXY47Z4-u_cNV0SA52evDTIkr_z-hOo_SUl2sV2murhaZp1j65uPsEgPYcJY1hSCO4sUgE0uWW5DSuNbzuShfo-GkeyU7X0bfuFtt57WUObzDIqS08qOxOKdgkANHp5LAELrMk-Jjd29KJcxEB0ImJTjNvs9Et3Ktqby4B4csTeXqO1voHuC7hrNvVTF7nAGIglWCdKD9lfNfovAQL4hCtjjt3ZAomSBj42z9ov4ZTbd08KYLKxqWCu2EQIbs6WmfJfnLpIuYwOOVLXWTSQn89uDms5_SZ2Bs_t6GoOtq6u5Qawhtleyi5VNAP5siGHJkP9hn3ssJ9obQMrzuhE8Gp99KMhdNULCCZTb3is33WDZUIYe4CwcQ7YTw74BLkSs8J8Hb63T6XlJaXq_UCpGApie7wVmXIHPDmbHO16hh_Bz3RQntUFMFNl6ol9sAOfnh-elskAd8S3giUwXmjAqHBBAG-JvZjxvv7CQURjINlcUaGoa8xPrzh6LwzKOvrtTRaX8yfC67HhiVQ)
+- [Momentum Measurement of Charged Particles in FASER's Emulsion Detector at the LHC](https://cds.cern.ch/record/2955093)
+- [GEOMETRY DESCRIPTION MARKUP LANGUAGE AND ITS
+APPLICATION-SPECIFIC BINDINGS](https://indico.cern.ch/event/408139/contributions/979922/attachments/815913/1118019/GDML_CHEP06.pdf)
 
 ## Books
 - [Particle Detectors: Fundamentals and Applications](https://academic.oup.com/book/43645)
 
 ## Teaching
 - [My Courses](https://moodle.uni-mainz.de/my/courses.php)
+- [Introduction to Unfolding](https://indico.cern.ch/event/735431/contributions/3275244/attachments/1784103/2904689/PhystatNu_2019.pdf)
+- [Practical statistics for particle physics](https://arxiv.org/pdf/1905.12362)
+- [Conditional Probability in Physics](https://watermark02.silverchair.com/E65-135.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAA1swggNXBgkqhkiG9w0BBwagggNIMIIDRAIBADCCAz0GCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMUpyW73mua46rjb0aAgEQgIIDDtQIgEQHjiA6o-BYXL2xBtUODnnSL_35fyKqxkVc2wuFiWXeQyIUCJ02YvOsqEXdS9Aez4VgiHLsKL8ACNmm8oURDZHo4RxqmZLHqIWqmu8Oi3XSVpE6qXcugluaReTdlVHQwTa80PGJo_VtC8d5C_-4VvS93jZEeBD2zyYfzIKpwIadRp7D7QnbJvXBxdC6fSh6EV7KAY51zyl_L-7tJopUtADrLCqzJQcw-Gac3lI3WekkNeF4a4ho0bAm7J_625lCEadWHUa0X9ZYJhwOOZKopGjnBw9-5mJDG7QLLuBQFHjlafvHhd_Bzdksk347rq_7zF3wzSLwXM50lFdyCIhMSyUVy5k4FeItJF2aObkc3CrdgBd7n004_J_GheZQAuK1Mghk6pBUQ3eZcfG5WA2sgegFSAzInLnuRPeUqUcvvQ9JKAbyJSoe26_ArYZ2JOC0-nW5Z5Bnjd8STd2kp0ZzIEjgzlkR0AT2Rezh_w_ygCAux8dqmU8UQyw_p1SM3ItKWrcXY47Z4-u_cNV0SA52evDTIkr_z-hOo_SUl2sV2murhaZp1j65uPsEgPYcJY1hSCO4sUgE0uWW5DSuNbzuShfo-GkeyU7X0bfuFtt57WUObzDIqS08qOxOKdgkANHp5LAELrMk-Jjd29KJcxEB0ImJTjNvs9Et3Ktqby4B4csTeXqO1voHuC7hrNvVTF7nAGIglWCdKD9lfNfovAQL4hCtjjt3ZAomSBj42z9ov4ZTbd08KYLKxqWCu2EQIbs6WmfJfnLpIuYwOOVLXWTSQn89uDms5_SZ2Bs_t6GoOtq6u5Qawhtleyi5VNAP5siGHJkP9hn3ssJ9obQMrzuhE8Gp99KMhdNULCCZTb3is33WDZUIYe4CwcQ7YTw74BLkSs8J8Hb63T6XlJaXq_UCpGApie7wVmXIHPDmbHO16hh_Bz3RQntUFMFNl6ol9sAOfnh-elskAd8S3giUwXmjAqHBBAG-JvZjxvv7CQURjINlcUaGoa8xPrzh6LwzKOvrtTRaX8yfC67HhiVQ)
+
+## FairSHiP Documentation
+- [Phlex Documentation](https://framework-r-d.github.io/phlex-design/)
+- [Mark Smith Trout Reco](https://github.com/mesmith75/trout)
+
 
 ## Websites
 - [Submitting Condor Jobs](https://htcondor.readthedocs.io/en/v8_8/users-manual/submitting-a-job.html)
@@ -42,11 +52,17 @@
 - [Physics Matters YouTube Channel](https://www.youtube.com/@physics_matters/playlists)
 - [Experimental High-Energy Physics (Sci & Tech)](https://www.youtube.com/@advance_sci_tech_SK_IITBombay/videos)
 - [GitHub Interactive Tutorial](https://learngitbranching.js.org/)
+- [Plotly Documentation](https://plotly.com/python/creating-and-updating-figures/)
+- [General Particle Source Documentation](https://geant4.web.cern.ch/documentation/dev/bfad_html/ForApplicationDevelopers/GettingStarted/generalParticleSource.html)
+- [Geant4 Tracking](https://indico.cern.ch/event/472305/contributions/1982331/attachments/1223729/1790331/Tracking.pdf)
+- [FairSHiP General Structure](https://indico.cern.ch/event/482695/contributions/1159356/attachments/1226973/1796779/FairShip-Tutorial_Intro-Feb2016.pdf)
+- [C++ Tutorial](https://www.learncpp.com/cpp-tutorial/introduction-to-these-tutorials/)
 
 ## CERN References
 - [SHiP Twiki](https://twiki.cern.ch/twiki/bin/viewauth/Ship/WebHome)
 - [CVMFS Documentation](https://cvmfs.readthedocs.io/en/stable/cpt-quickstart.html)
 - [Geant4 Documentation](https://geant4.web.cern.ch/documentation/dev/ig_html/InstallationGuide/index.html)
+- [LpGBT Manual](https://cds.cern.ch/record/2809058/files/lpGBT_manual.pdf)
 - [Newcomers & returning users](https://usersoffice.web.cern.ch/pre-arrival-formalities-and-information)
 - [EDH pre-registration PREG](https://usersoffice.web.cern.ch/i-am-pre-registered-what-happens-next)
 - [Post EDH approval](https://usersoffice.web.cern.ch/edh-pre-registration-form#what-happens-after-submission)
