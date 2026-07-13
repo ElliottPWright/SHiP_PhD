@@ -58,6 +58,7 @@ APPLICATION-SPECIFIC BINDINGS](https://indico.cern.ch/event/408139/contributions
 - [Geant4 Tracking](https://indico.cern.ch/event/472305/contributions/1982331/attachments/1223729/1790331/Tracking.pdf)
 - [FairSHiP General Structure](https://indico.cern.ch/event/482695/contributions/1159356/attachments/1226973/1796779/FairShip-Tutorial_Intro-Feb2016.pdf)
 - [C++ Tutorial](https://www.learncpp.com/cpp-tutorial/introduction-to-these-tutorials/)
+- [Physics of Electromagnetic Showers](https://indico.cern.ch/event/782305/contributions/3256087/attachments/1789793/2916004/20190204_calorimetry_AppendixEMshowers.pdf)
 
 ## CERN References
 - [SHiP Twiki](https://twiki.cern.ch/twiki/bin/viewauth/Ship/WebHome)
