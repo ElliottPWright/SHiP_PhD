@@ -4,6 +4,9 @@
 - Build dependencies in SetUpWoVisual.txt
 - Simulation run in simulation_start_up.txt
 
+## Training Centre
+
+[HSF Training Center](https://hsf-training.org/training-center/)
 
 ## Papers
 - [The SHiP/NA67 experiment at the ECN3 high-intensity beam facility at the CERN SPS](https://inspirehep.net/literature/3167127)
