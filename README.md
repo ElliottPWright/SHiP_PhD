@@ -10,6 +10,7 @@
 - [ROOT Tutorial](https://root.cern/learn/)
 
 ## Papers
+- [Light in the beam dump - ALP production from decay photons in proton beam-dumps](https://seafile.rlp.net/d/ef5d13cc158c4829b5a6/files/?p=%2FD%C3%B6brich-Light%20in%20the%20beam%20dump.%20Axion-Like%20Particle%20production%20from%20decay%20photons%20in%20proton%20beam-dumps-2019-Journal%20of%20High%20Energy%20Physics.pdf)
 - [The SHiP/NA67 experiment at the ECN3 high-intensity beam facility at the CERN SPS](https://inspirehep.net/literature/3167127)
 - [Design and development of calorimetry at SHiP and SND@LHC](https://openscience.ub.uni-mainz.de/items/901302bf-320c-4ebb-8c77-0136b5770b88)
 - [SHiP experiment at the SPS Beam Dump Facility](https://inspirehep.net/literature/2910156)
