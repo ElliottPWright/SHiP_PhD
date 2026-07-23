@@ -64,6 +64,7 @@ APPLICATION-SPECIFIC BINDINGS](https://indico.cern.ch/event/408139/contributions
 - [FairSHiP General Structure](https://indico.cern.ch/event/482695/contributions/1159356/attachments/1226973/1796779/FairShip-Tutorial_Intro-Feb2016.pdf)
 - [C++ Tutorial](https://www.learncpp.com/cpp-tutorial/introduction-to-these-tutorials/)
 - [Physics of Electromagnetic Showers](https://indico.cern.ch/event/782305/contributions/3256087/attachments/1789793/2916004/20190204_calorimetry_AppendixEMshowers.pdf)
+- [Why silicon detectors?](https://www.slideserve.com/ranee/why-silicon-detectors)
 
 ## CERN References
 - [SHiP Twiki](https://twiki.cern.ch/twiki/bin/viewauth/Ship/WebHome)
