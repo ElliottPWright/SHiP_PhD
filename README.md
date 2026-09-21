@@ -23,6 +23,8 @@
 - [GEOMETRY DESCRIPTION MARKUP LANGUAGE AND ITS
 APPLICATION-SPECIFIC BINDINGS](https://indico.cern.ch/event/408139/contributions/979922/attachments/815913/1118019/GDML_CHEP06.pdf)
 - [Detector performance at SHiP for cascade-produced long-lived particles](https://inspirehep.net/literature/3166383)
+- [The SHiP experiment at CERN](https://inspirehep.net/files/0eb1add77dde4a9bbc94e1f5bc0427a0)
+- [A facility to Search for Hidden Particles at the CERN SPS: the SHiP physics case](https://inspirehep.net/literature/1362180)
 
 ## Books
 - [Particle Detectors: Fundamentals and Applications](https://academic.oup.com/book/43645)
